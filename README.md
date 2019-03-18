@@ -24,10 +24,11 @@ url: `https://graph.microsoft.com/[v1.0 | beta]/groups/{group-id}/sites/root`
 ### Getting the drive id for a Sharepoint document foloder
 url: `https://graph.microsoft.com/beta/groups/{groupId}/drive/root`
 
+
 ### Get a listing of items in a document library General folder
 url: `https://graph.microsoft.com/beta/groups/{groupId | teamId}/drive/root:/General`
 
 ### Get the children of a drive folder
 url: `https://graph.microsoft.com/beta/groups/{groupId}/drive/items/{itemId}/children`
-
+[source](https://docs.microsoft.com/en-us/graph/api/driveitem-list-children?view=graph-rest-1.0)
 * The item id can come from either a previous call to a `/children` endpoint or from the `drive/root:/[path]` endpoint.
